@@ -7,12 +7,9 @@ CREATE DATABASE SampleGraphDatabase
 ```
 
 This creates a database named SampleGraphDatabase
-
-### 2. View data
-
 Currently our database is empty
 
-### 3. Insert data
+### 2. Insert data
 
 Data is stored in Neo4j as nodes. Each node has a label and properties.
 
@@ -26,7 +23,7 @@ Let us create a Person node and give it a property called name.
 CREATE (p: Person {name: "Abhinav", userID: 1})
 ```
 
-### 4. Fetch data
+### 3. Fetch data
 
 Let's fetch the data we just inserted
 
@@ -46,7 +43,7 @@ name is the property we added to that node.
 Now that we have a added a node, it will show up under Datatbase Information.
 ![download](https://github.com/blacksmithop/Neo4j_For_Dummies/assets/60320192/895ba02f-86dc-4c41-ac2e-f9ec34248333)
 
-### 5. Node Relationship
+### 4. Node Relationship
 
 We can create relationships between nodes having different labels.
 
@@ -76,7 +73,7 @@ CREATE (a)-[:IsOwnerOf]->(b);
 
 Now we have established a relationship between Profile and Person nodes based on their shared userID .
 
-### 6. Fetch data with filters
+### 5. Fetch data with filters
 
 We can filter our query results with a WHERE clause
 
