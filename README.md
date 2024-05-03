@@ -38,9 +38,10 @@ Here's the node in detail. As you can see each node columns with an id and eleme
 
 Think of <id> as the ID field in SQL, we will be using this in a lot of queries.
 
-name is the property we added to that node.
+`name` is the property we added to that node.
 
 Now that we have a added a node, it will show up under Datatbase Information.
+
 ![download](https://github.com/blacksmithop/Neo4j_For_Dummies/assets/60320192/895ba02f-86dc-4c41-ac2e-f9ec34248333)
 
 ### 4. Node Relationship
